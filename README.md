@@ -5,7 +5,7 @@ A simple interpreter study using a...
 - interpreter (rpn stack machine)
 
 Its primary purpose is a learning platform to build on, contains debugging for each stage. Sample debugging output for the input '4 + 2 * (5 - 2)':
-
+```
 Result: *** Lexer ***
 1 Number: 4
 3 Operator: +
@@ -19,7 +19,7 @@ Result: *** Lexer ***
 
 *** Parser ***
 
-# Program accepted
+Program accepted
 Number(4) Number(2) Number(5) Number(2) - * +
 
 *** Interpreter ***
@@ -30,4 +30,6 @@ Workstack: Number(2) Number(5) Number(2) Number(4)
 Workstack: Number(3) Number(2) Number(4)
 Workstack: Number(6) Number(4)
 Workstack: Number(10)
+
 10.00000000
+```
