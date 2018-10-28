@@ -4,7 +4,9 @@ A simple interpreter study using a...
 - parser
 - interpreter (rpn stack machine)
 
-Its primary purpose is a learning platform to build on, contains debugging for each stage. Sample debugging output for the input '4 + 2 * (5 - 2)':
+Its primary purpose is to provide a learning platform to build on, contains debugging information for each stage.  
+Sample debugging output for the input '4 + 2 * (5 - 2)':
+  
 ```
 Result: *** Lexer ***
 1 Number: 4
