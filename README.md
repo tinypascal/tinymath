@@ -1,4 +1,6 @@
 # tinymath
+All of this code (including bugs) is public domain.  
+  
 A simple interpreter study using a...
 - lexer
 - parser
